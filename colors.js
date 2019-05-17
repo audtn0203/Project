@@ -18,16 +18,16 @@ var Body = {
 }
 function nightDayHandler(self){
   var target=document.querySelector('body');
-  if(self.value === 'night'){
-    Body.setBackgroundColor('pink');
-    Body.setColor('yellow');
-    self.value='day';
-    p.setColor('white');
+  if(self.value === 'turn off'){
+    Body.setBackgroundColor('black');
+    Body.setColor('black');
+    self.value='turn on';
+    p.setColor('black');
     }
   else{
-    Body.setBackgroundColor('powderblue');
+    Body.setBackgroundColor('white');
     Body.setColor('red');
-    self.value='night';
-    p.setColor('green');
+    self.value='turn off';
+    p.setColor('orange');
   }
 }

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>project1</title>
     <link rel="stylesheet" href="style.css">
+    <script src="colors.js"></script>
   </head>
   <body>
     <h1><a href="project1.html">IT기업 리스트</a></h1>
@@ -16,8 +17,8 @@
         <li><a href="kr.html" title="해외결제시스템">케이알파트너스</a></li>
       </ul>
       <div>
-        <h2 style="color:blue">신아시스템</h2>
-        <p>자사의 HMI에 대하여, B-AWS BTL 인증 취득
+        <h2>신아시스템</h2>
+        <p>자사의 HMI에 대하여
 
 (주)신아시스템은 HMI에 부여할 수 있는 최 상위 등급인 "B-AWS"를 취득 하였습니다.
 당사에서 취득한 BTL인증은 자체 개발을 통하여, BTL(BACnet Testing Laboratories)을 통해
@@ -34,5 +35,8 @@ HMI 역시 최상위 등급인 B-AWS를 취득함으로, 모든 BACnet장치들�
 </p>
       </div>
   </div>
+  <input type="button" value="turn off" onclick="
+    nightDayHandler(this);
+  ">
   </body>
 </html>
